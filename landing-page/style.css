@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left-links {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.right-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
