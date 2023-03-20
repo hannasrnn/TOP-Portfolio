@@ -103,6 +103,7 @@ a {
 }
 
 img {
+    object-fit: cover;
     width: 130px;
     height: 130px;    
     border-radius: 5px;
