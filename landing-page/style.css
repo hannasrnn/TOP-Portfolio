@@ -125,3 +125,27 @@ img {
     text-align: center;    
     padding: 10px;
 }
+
+.second-container {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px; 
+    padding-left: 250px;
+    padding-right: 250px;
+    height: fit-content;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    padding-right: 300px;
+    padding-bottom: 50px;
+}
