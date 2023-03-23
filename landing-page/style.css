@@ -86,7 +86,8 @@ a {
     width: max-content;
     color: #f9faf8;
     border-radius: 5px;
-    padding: 7px;
+    padding: 9px;
+    border-style: none
 }
 
 .card {
@@ -140,12 +141,55 @@ img {
     padding-left: 250px;
     padding-right: 250px;
     height: fit-content;
+    width: fit-content;
 }
 
 .author {
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
-    padding-right: 300px;
+    padding-right: 250px;
     padding-bottom: 50px;
+}
+
+.modal {
+    display: flex;
+    background-color: #3882f6;
+    margin: 50px 800px;
+    border-radius: 5px;
+    padding: 50px;
+    width: max-content;
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.modal-text {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+}
+
+.modal-button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #f9faf8;
+    border-style: solid;
+    color: #f9faf8;
+    align-items: right;
+    margin-left: 50px;
+    padding: 10px 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 10px;
 }
