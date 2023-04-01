@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    background-color: firebrick;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 70px;
+    justify-content: space-between;
+}
+
+h1 {
+    color: whitesmoke; 
+    align-items: center;
+    font-size: 40px;
+}
+
+.button {
+    display: flex;
+    padding: 5px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 40px;
+    height: fit-content;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 250px;
+}
