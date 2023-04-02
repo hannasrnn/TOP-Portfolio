@@ -29,8 +29,32 @@ a {
     color: black;
 }
 
+.intro-img {
+    object-fit: cover;
+    width: 200px;
+    height: 250px;
+    padding: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex: none;
+}
+
+.intro {
+    background-color: rgb(2, 2, 87);
+    display: flex;
+}
+
+.intro-text {
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 70px;
+}
+
 img {
     object-fit: cover;
     width: 200px;
     height: 250px;
-}
