@@ -2,8 +2,8 @@
     display: flex;
     background-color: firebrick;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
     justify-content: space-between;
+    padding: 0px 26.8px;
 }
 
 h1 {
@@ -55,3 +55,37 @@ img {
     object-fit: cover;
     width: 200px;
     height: 250px;
+}
+
+.card-header {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    display: flex;
+}
+
+p {
+    margin: 100px;
+    text-align: center;
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(2, 2, 87);
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
