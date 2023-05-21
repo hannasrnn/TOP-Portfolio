@@ -4,6 +4,11 @@ const getComputerChoice = () => {
     return randomRPS;
 }
 
-function singleRound () {
+let playerSelection = "rock";
 
-}
+function singleRound (playerSelection, getComputerChoice)
+    {if (playerSelection === "rock" && getComputerChoice=== "Paper"); 
+        return 'You lose! Paper beats rock.';
+    }
+   
+console.log(singleRound(playerSelection, getComputerChoice))
