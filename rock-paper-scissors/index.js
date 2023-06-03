@@ -4,11 +4,17 @@ const getComputerChoice = () => {
     return randomRPS;
 }
 
-let playerSelection = "rock";
+function gamePlay (playerSelection, getComputerChoice) {
+    if (playerSelection === "rock" && getComputerChoice=== "Paper")
+        return 'You lose! Paper beats rock.'
 
-function singleRound (playerSelection, getComputerChoice)
-    {if (playerSelection === "rock" && getComputerChoice=== "Paper"); 
-        return 'You lose! Paper beats rock.';
-    }
-   
-console.log(singleRound(playerSelection, getComputerChoice))
+    if (playerSelection === "scissors" && getComputerChoice=== "Paper")
+    return 'You win! Scissors beats paper.'
+
+    else (playerSelection === "paper" && getComputerChoice=== "Paper")
+    return 'It\'s a tie.'
+}
+
+const playerSelection = "rock";
+const computerSelection = getComputerChoice();
+console.log(gamePlay(playerSelection, getComputerChoice));
