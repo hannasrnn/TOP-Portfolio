@@ -37,6 +37,6 @@ function gamePlay (playerSelection, getComputerChoice) {
 }
 
 
-const playerSelection = "ScIssors";
+const playerSelection = "rock";
 
-console.log(playerSelection.toLowerCase(), getComputerChoice());
+console.log(gamePlay(playerSelection.toLowerCase(), getComputerChoice()));
