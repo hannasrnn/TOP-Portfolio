@@ -6,13 +6,6 @@
     return choice[Math.floor(Math.random()* choice.length)];
 }
 
-function winner () {
-    if (playerScore > computerScore)
-        return 'You won !'
-        else if (playerScore < computerScore) 
-        return 'You lost' 
-}
-
 function gamePlay (playerSelection, getComputerChoice) {
     if (playerSelection === "rock" && getComputerChoice=== "Paper") 
     return 'You lose! Paper beats rock.'
@@ -141,9 +134,18 @@ function gamePlay (playerSelection, getComputerChoice) {
     else return 'Try again'
 }
 
+function winner () {
+    if (playerScore > computerScore){
+        return 'You won !'
+    }else if (playerScore < computerScore) {
+        return 'You lost' 
+    }
+    else return 'Something went wrong'
+}
+
 var playerSelection = "paper";
 console.log(gamePlay(playerSelection.toLowerCase(), getComputerChoice()));
-console.log(winner);
+console.log(winner());
 
     
     
