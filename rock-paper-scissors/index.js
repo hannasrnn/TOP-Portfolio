@@ -40,6 +40,8 @@ function gamePlay (playerSelection, getComputerChoice) {
     // else return 'Try again'
     }
 
+    prompt(message);
+
 var playerSelection = "rock";
 console.log(gamePlay(playerSelection.toLowerCase(), getComputerChoice()));
 
@@ -71,6 +73,8 @@ function gamePlay (playerSelection, getComputerChoice) {
     
     // else return 'Try again'
     }
+
+    prompt(message);
 
 var playerSelection = "paper";
 console.log(gamePlay(playerSelection.toLowerCase(), getComputerChoice()));
@@ -104,6 +108,8 @@ function gamePlay (playerSelection, getComputerChoice) {
     // else return 'Try again'
     }
 
+    prompt(message);
+
 var playerSelection = "scissors";
 console.log(gamePlay(playerSelection.toLowerCase(), getComputerChoice()));
 
@@ -135,6 +141,8 @@ function gamePlay (playerSelection, getComputerChoice) {
     
     // else return 'Try again'
     }
+
+    prompt(message);
 
 var playerSelection = "rock";
 console.log(gamePlay(playerSelection.toLowerCase(), getComputerChoice()));
