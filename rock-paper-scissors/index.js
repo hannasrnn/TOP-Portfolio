@@ -6,6 +6,11 @@
     return choice[Math.floor(Math.random()* choice.length)];
 }
 
+let message
+message = 'Do you choose Rock, Paper or Scissors ?'
+
+prompt(message);
+
 function gamePlay (playerSelection, getComputerChoice) {
     if (playerSelection === "rock" && getComputerChoice=== "Paper") {
     computerScore++
